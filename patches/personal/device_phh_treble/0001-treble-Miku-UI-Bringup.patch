@@ -41,7 +41,7 @@ index 0000000..bc0a208
 +-include vendor/miku/build/core/config.mk
 +
 +# Maintaier
-+MIKU_MASTER := xiaoleGun
++MIKU_MASTER := TheMiniOnii
 \ No newline at end of file
 diff --git a/overlay-miku/packages/apps/Dialer/java/com/android/dialer/callrecord/res/values/config.xml b/overlay-miku/packages/apps/Dialer/java/com/android/dialer/callrecord/res/values/config.xml
 new file mode 100644
@@ -90,7 +90,7 @@ index 0000000..15887ba
 +<resources>
 +
 +    <!-- Maintainer Url -->
-+    <string name="miku_maintainer_uri" translatable="false">https://github.com/xiaoleGun</string>
++    <string name="miku_maintainer_uri" translatable="false">https://t.me/Zualolicon</string>
 +
 +</resources>
 \ No newline at end of file
