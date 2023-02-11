@@ -44,7 +44,7 @@ Miku UI
     ```
 - 下载本仓库
     ```
-    git clone https://github.com/xiaoleGun/treble_build_miku -b TDA
+    git clone https://github.com/TheMiniOnii221/treble_build_miku -b TDA
     ```
 - 完成之后运行脚本:
     ```
