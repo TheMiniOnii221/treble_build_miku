@@ -3,7 +3,7 @@ echo
 echo "-----------------------------------------"
 echo "      Miku UI TDA Treble Buildbot        "
 echo "                  by                     "
-echo "               xiaoleGun                 "
+echo "             TheMiniOnii                 "
 echo " Executing in 3 seconds - CTRL-C to exit "
 echo "-----------------------------------------"
 echo
@@ -186,7 +186,7 @@ generateOtaJson() {
                 "arm64-ab-gapps-vndklite") name="miku_treble_arm64_bgN-vndklite";;
             esac
             size=$(wc -c $file | awk '{print $1}')
-            url="https://github.com/xiaoleGun/treble_build_miku/releases/download/TDA-$VERSION/$(basename $file)"
+            url="https://github.com/TheMiniOnii221/treble_build_miku/releases/download/TDA-$VERSION/$(basename $file)"
             json="${json} {\"name\": \"$name\",\"size\": \"$size\",\"url\": \"$url\"},"
         done
         json="${json%?}]}"
